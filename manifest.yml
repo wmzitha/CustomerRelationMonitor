@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: CustomerRelationMonitor
+  host: customerrelationmonitor
+  disk_quota: 1024M
+  services:
+  - Personality Insights-fw
+  - Tone Analyzer-ph
+  - Natural Language Classifier-04
